@@ -6,7 +6,7 @@
 
 	<groupId>fi.ishtech.core</groupId>
 	<artifactId>ishtech-i18n</artifactId>
-	<version>4.0.0</version>
+	<version>5.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>ishtech-i18n</name>
@@ -43,7 +43,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<java.version>21</java.version>
+		<java.version>25</java.version>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
 
