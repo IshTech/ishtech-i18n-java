@@ -1,10 +1,13 @@
-package fi.ishtech.core.i18n.enums;
+package fi.ishtech.common.i18n.enums;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
+
+import fi.ishtech.common.i18n.enums.LangEnum;
+
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;

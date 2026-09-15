@@ -11,7 +11,7 @@ Java Util for
 
 ```
 <dependency>
-	<groupId>fi.ishtech.core</groupId>
+	<groupId>fi.ishtech.common</groupId>
 	<artifactId>ishtech-i18n</artifactId>
 	<version>${ishtech-i18n.version}</version>
 </dependency>
@@ -21,7 +21,7 @@ Java Util for
 ### Gradle
 
 ```
-implementation("fi.ishtech.core:ishtech-i18n:${ishtechI18nVersion}")
+implementation("fi.ishtech.common:ishtech-i18n:${ishtechI18nVersion}")
 ```
 
 ## Deploy to Sonatype Central
