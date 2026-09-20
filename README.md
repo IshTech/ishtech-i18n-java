@@ -24,6 +24,26 @@ Java Util for
 implementation("fi.ishtech.common:ishtech-i18n:${ishtechI18nVersion}")
 ```
 
+## Build
+
+This is a library; it **does not run** as a standalone application.
+
+### Maven
+
+#### Local Maven Build
+
+- Build without tests
+
+```
+./mvnw clean install -DskipTests
+```
+
+- Build with Junit tests
+
+```
+./mvnw clean install
+```
+
 ## Deploy to Sonatype Central
 
 ```
