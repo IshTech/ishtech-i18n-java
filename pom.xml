@@ -4,14 +4,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>fi.ishtech.core</groupId>
+	<groupId>fi.ishtech.common</groupId>
 	<artifactId>ishtech-i18n</artifactId>
-	<version>5.2.0</version>
+	<version>5.3.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>ishtech-i18n</name>
 	<description>Java Utils for Languages</description>
-	<url>https://www.ishtech.fi/projects/ishtech-i18n-java</url>
+	<url>https://www.ishtech.fi/libs/ishtech-i18n-java</url>
 
 	<organization>
 		<name>IshTech</name>
@@ -21,6 +21,7 @@
 	<licenses>
 		<license>
 			<name>BSD-2-Clause</name>
+			<url>https://opensource.org/license/bsd-2-clause</url>
 		</license>
 	</licenses>
 
@@ -44,14 +45,15 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<java.version>25</java.version>
-		<maven.compiler.source>${java.version}</maven.compiler.source>
-		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<maven.compiler.release>${java.version}</maven.compiler.release>
 
-		<junit-jupiter.version>6.0.3</junit-jupiter.version>
+		<junit-jupiter.version>6.1.3</junit-jupiter.version>
 
+		<maven-source-plugin.version>3.4.0</maven-source-plugin.version>
+		<maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
 		<maven-gpg-plugin.version>3.2.8</maven-gpg-plugin.version>
 
-		<central-publishing-maven-plugin.version>0.10.0</central-publishing-maven-plugin.version>
+		<central-publishing-maven-plugin.version>0.11.0</central-publishing-maven-plugin.version>
 	</properties>
 
 	<dependencies>
@@ -68,6 +70,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
+				<version>${maven-source-plugin.version}</version>
 				<executions>
 					<execution>
 						<id>attach-sources</id>
@@ -80,6 +83,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>${maven-javadoc-plugin.version}</version>
 				<executions>
 					<execution>
 						<id>attach-javadocs</id>
