@@ -1,10 +1,10 @@
-package fi.ishtech.core.i18n.country;
+package fi.ishtech.common.i18n.country;
 
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-import fi.ishtech.core.i18n.enums.CountryEnum;
+import fi.ishtech.common.i18n.enums.CountryEnum;
 
 /**
  *

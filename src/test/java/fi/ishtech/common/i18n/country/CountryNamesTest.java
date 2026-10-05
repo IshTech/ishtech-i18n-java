@@ -1,4 +1,4 @@
-package fi.ishtech.core.i18n.country;
+package fi.ishtech.common.i18n.country;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -7,12 +7,14 @@ import java.util.List;
 import java.util.Map;
 
 import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
+
+import fi.ishtech.common.i18n.country.CountryNames;
+import fi.ishtech.common.i18n.enums.CountryEnum;
+import fi.ishtech.common.i18n.enums.LangEnum;
+
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
-
-import fi.ishtech.core.i18n.enums.CountryEnum;
-import fi.ishtech.core.i18n.enums.LangEnum;
 
 @TestMethodOrder(OrderAnnotation.class)
 public class CountryNamesTest {

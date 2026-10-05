@@ -1,4 +1,4 @@
-package fi.ishtech.core.i18n.enums;
+package fi.ishtech.common.i18n.enums;
 
 import java.util.ArrayList;
 import java.util.Collections;
